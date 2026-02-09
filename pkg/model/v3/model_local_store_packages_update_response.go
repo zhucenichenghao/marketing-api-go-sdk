@@ -10,7 +10,7 @@
 package model
 
 import (
-	"github.com/tencentad/marketing-api-go-sdk/pkg/model"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/model"
 )
 
 type LocalStorePackagesUpdateResponse struct {

@@ -13,13 +13,13 @@
 ### 使用 go mod 获取
 其中的 ${VERSION} 需要替换成要使用的版本，如v1.0.0，具体版本号可查看相应的tag
 ```shell
-go mod edit -require="github.com/tencentad/marketing-api-go-sdk@${VERSION}"
+go mod edit -require="github.com/zhucenichenghao/marketing-api-go-sdk@${VERSION}"
 go mod download
 ```
 
 ### 使用 go get 获取
 ```shell
-go get github.com/tencentad/marketing-api-go-sdk
+go get github.com/zhucenichenghao/marketing-api-go-sdk
 ```
 
 ## 如何使用
@@ -36,10 +36,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/antihax/optional"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/ads"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/api"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/config"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/errors"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/ads"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/api"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/config"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/errors"
 )
 
 func main() {
@@ -74,8 +74,8 @@ func main() {
 package main
 
 import (
-	"github.com/tencentad/marketing-api-go-sdk/pkg/ads"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/config"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/ads"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/config"
 )
 
 func main() {
@@ -96,11 +96,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/antihax/optional"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/ads"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/api"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/model"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/config"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/errors"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/ads"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/api"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/model"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/config"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/errors"
 )
 
 func main() {
@@ -144,8 +144,8 @@ func main() {
 package main
 
 import (
-	"github.com/tencentad/marketing-api-go-sdk/pkg/ads"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/config"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/ads"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/config"
 )
 
 func main() {
@@ -163,8 +163,8 @@ func main() {
 package main
 
 import (
-	"github.com/tencentad/marketing-api-go-sdk/pkg/ads"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/config"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/ads"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/config"
 )
 
 func main() {
@@ -184,8 +184,8 @@ func main() {
 package main
 
 import (
-	"github.com/tencentad/marketing-api-go-sdk/pkg/ads"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/config"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/ads"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/config"
 )
 
 func main() {

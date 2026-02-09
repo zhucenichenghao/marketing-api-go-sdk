@@ -15,9 +15,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/tencentad/marketing-api-go-sdk/pkg/ads/v3"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/config/v3"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/errors"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/ads/v3"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/config/v3"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/errors"
 )
 
 type IllegalComplaintAddExample struct {

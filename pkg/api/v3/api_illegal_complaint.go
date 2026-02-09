@@ -17,9 +17,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tencentad/marketing-api-go-sdk/pkg/errors"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/model"
-	. "github.com/tencentad/marketing-api-go-sdk/pkg/model/v3"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/errors"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/model"
+	. "github.com/zhucenichenghao/marketing-api-go-sdk/pkg/model/v3"
 )
 
 // Linger please

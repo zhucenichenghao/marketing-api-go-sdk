@@ -8,8 +8,8 @@ import (
 	"time"
 
 	uuid "github.com/google/uuid"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/api"
-	"github.com/tencentad/marketing-api-go-sdk/pkg/config"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/api"
+	"github.com/zhucenichenghao/marketing-api-go-sdk/pkg/config"
 )
 
 // SDKClient ...
