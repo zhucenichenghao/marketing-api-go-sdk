@@ -30,12 +30,12 @@ type UserActionsApiService service
 
 /*
 UserActionsApiService 上传用户行为数据
- * @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
- * @param data
+  - @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
+  - @param data
 
 @return UserActionsAddResponse
 */
-func (a *UserActionsApiService) Add(ctx context.Context, data UserActionsAddRequest) (interface{}, http.Header, error) {
+func (a *UserActionsApiService) Add(ctx context.Context, data UserActionsAddRequest, localVarHeaderParams map[string]string) (interface{}, http.Header, error) {
 	var (
 		localVarHttpMethod  = strings.ToUpper("Post")
 		localVarPostBody    interface{}
@@ -49,7 +49,6 @@ func (a *UserActionsApiService) Add(ctx context.Context, data UserActionsAddRequ
 	// create path and map variables
 	localVarPath := a.client.Cfg.BasePath + "/user_actions/add"
 
-	localVarHeaderParams := make(map[string]string)
 	localVarQueryParams := url.Values{}
 	localVarFormParams := url.Values{}
 
